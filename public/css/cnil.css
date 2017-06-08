@@ -1,0 +1,45 @@
+.pageTitre{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 30px !important;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 3.2rem;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+.titreEiffage{
+    color: #FF0000;
+    padding-left: 10px !important;
+    font-weight: bold;
+    font-size: 19px;
+}
+.corps ul{
+    list-style-type: none;
+}
+.corps ul li:before{
+    content: "▪";
+    color: #FF0000;
+    margin-right: 10px;
+
+}
+.corps a{
+    color: #FF0000;
+}
+.corps{
+    color: #000000;
+    background-color: #FFFFFF;
+    z-index: 0;
+
+}
+#corps{
+    border-left: 1px solid #ECECEC;
+    padding: 30px 30px 0 !important;
+}
+.sousTitreEiffage{
+    color: #FF0000;
+    font-weight: normal;
+    font-size: 16px;
+}

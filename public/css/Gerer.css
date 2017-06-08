@@ -1,0 +1,99 @@
+.pageTitre{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 20px !important;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 3.2rem;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+.gerer{
+    background-color: #FFFFFF;
+    border: 1px solid;
+    width: 100px;
+
+}
+.gerer:hover{
+    background: #FF0000;
+    color: #FFFFFF;
+    font-weight: Bold;
+    border: 1px solid;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+
+}
+#scroll{
+    height:300px;
+    overflow-x: scroll;
+    text-align: center;
+
+}
+#scroll2{
+    height:687.78px;
+    overflow-x: scroll;
+    text-align: center;
+
+}
+td button{
+    background-color: #FFFFFF;
+    border: 1px solid;
+    width: 150px;
+    border-radius:5px;
+
+
+}
+td button:hover{
+    background: #FF0000;
+    color: #FFFFFF;
+    font-weight: Bold;
+    border: 1px solid;
+}
+
+.Image{
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    margin-bottom: 5px;
+
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+
+h4{
+    font-size: 20px;
+}
+h4:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+h3{
+    font-size: 15px;
+    padding: 1px;
+    text-decoration: underline;
+}
+.inscription{
+    background-color: #FFFFFF;
+    border: 1px solid;
+    width: 100px;
+}
+.inscription:hover{
+    background: #FF0000;
+    color: #FFFFFF;
+    font-weight: Bold;
+    border: 1px solid;
+}
+
+.panel{
+    border-radius:0px 0px 50px 5px ;
+}
+
+.error{
+    border-radius: inherit;
+}

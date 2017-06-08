@@ -1,0 +1,208 @@
+html, body { height: 100%; color:#000000;font-family: HN, Helvetica, Arial, sans-serif; }
+button:focus{outline : inherit}
+
+h5:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#head{
+    position: fixed;
+    top:0;left: 0;right: 0;
+    background-color: #FFFFFF;
+    z-index: 100;
+}
+.break{
+    height: 130px;
+}
+.drop {
+    min-width: 100%;
+    border: 1px solid #000000;
+}
+.logo img {
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #ff0000;
+    background-color: #FFFFFF;
+    border-color: #000000;
+}
+.dropdown-menu>li>a {
+    color: #000000;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #ff0000;
+    text-decoration: none;
+    background-color: inherit;
+}
+#red {
+    height: 30px;
+    background-color: #ff0000;
+}
+#logo {
+    width: 12em;
+    height: 12em;
+}
+#logos{
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    background-color: #FFFFFF;
+}
+#logosY{
+    width: 25px;
+    height: 25px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+#caisse{
+    height: 130px;
+    border:1px solid #000000;
+}
+#menucaisse{
+    margin-top: 10px;
+    height: 80px;
+    border:1px solid #000000;
+
+    -moz-border-radius:10px 0;
+    -webkit-border-radius:10px 0;
+    border-radius:10px 0;
+}
+#icon{
+    width: 275px;
+    height: 65px;
+    margin-top: 17px;
+    margin-bottom: 18px;
+
+}
+#icon:hover{
+ border: groove;
+    border-radius: 20px;
+}
+#footer{
+    background-color: #ededed;
+
+    bottom: 0;
+
+}
+.menu button{
+    margin: 9px auto 9px auto;
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid #000000;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    border-radius:15px 15px 2px 2px;
+}
+.menu button:hover{
+    background: #FF0000;
+    color: #FFFFFF;
+    font-weight: Bold;
+}
+
+.button{
+    margin-top: 6px;
+    height: 40px;
+    background: #FFFFFF;
+    color: #000000;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius:5px;
+}
+.button:hover{
+    background: #FF0000;
+    color: #FFFFFF;
+    font-weight: Bold;
+}
+
+.button2  {
+    margin-top: 6px;
+    height: 40px;
+    background: #FFFFFF;
+    color: #000000;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.button2:hover{
+    background: #FF0000;
+    color: #FFFFFF;
+    font-weight: Bold;
+}
+
+
+.eiffage{
+    background: url("/../Projet-capteur/public/image/Eiffage.png") bottom left no-repeat;
+    padding: 0 0 4px 6px;
+}
+.eiffageC{
+    background: url("/../Projet-capteur/public/image/Construction.png") bottom left no-repeat;
+    padding: 0 0 4px 6px;
+}
+.eiffageCo{
+    background: url("/../Projet-capteur/public/image/Consessions.png") bottom left no-repeat;
+    padding: 0 0 4px 6px;
+}
+.eiffageAPRR{
+    background: url("/../Projet-capteur/public/image/Autoroute APRR.png") bottom left no-repeat;
+    padding: 0 0 4px 6px;
+}
+.eiffageI{
+    background: url("/../Projet-capteur/public/image/Infracstructure.png") bottom left no-repeat;
+    padding: 0 0 4px 6px;
+}
+.eiffageE{
+    background: url("/../Projet-capteur/public/image/Energie.png") bottom left no-repeat;
+    padding: 0 0 4px 6px;
+}
+.pieds{
+ margin-top: 25px;
+    margin-bottom: 30px;
+ }
+#footer a{
+    color: #000000;
+
+}
+#footer a:hover{
+    color: #FF0000;
+    text-decoration:none;
+    font-weight: inherit;
+
+
+}
+a:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+#footer ul{
+    margin-top:5px;
+    padding: 0;
+    width: 100%;
+}
+#footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+h1{
+    font-weight: bold;
+}
+
+@media (max-width: 690px){
+
+    #head{
+        position: inherit;
+    }
+  .break{
+      height: 0px;
+  }
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
